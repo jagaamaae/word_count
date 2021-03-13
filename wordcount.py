@@ -28,10 +28,13 @@ def count_words(filename):
         return word_counts
 count_words('test.txt')
 
-def print_words():
+def sort_print_words():
     for word, count in word_counts.items():
+        sorted(word_counts)
         print (word, count)
-print_words()
+
+sort_print_words()
+
 
 #Alternate solutoin
 
